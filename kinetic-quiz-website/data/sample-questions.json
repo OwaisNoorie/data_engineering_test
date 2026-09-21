@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "question": "What is Snowpipe?",
+      "options": [
+        "Continuous automated data loading",
+        "A BI dashboard",
+        "A database role",
+        "A Python package"
+      ],
+      "answer": 0,
+      "explanation": "Snowpipe provides continuous, automated loading of files into Snowflake.",
+      "topic": "Snowflake",
+      "difficulty": "Medium",
+      "tags": [
+        "snowflake",
+        "ingestion"
+      ]
+    },
+    {
+      "question": "What does dbt run do?",
+      "options": [
+        "Builds selected dbt models",
+        "Uploads files to S3",
+        "Starts a Snowflake warehouse",
+        "Deletes a dbt project"
+      ],
+      "answer": 0,
+      "explanation": "dbt run executes model SQL and builds the configured relations.",
+      "topic": "DBT",
+      "difficulty": "Easy",
+      "tags": [
+        "dbt",
+        "models"
+      ]
+    },
+    {
+      "question": "What does a Snowflake stream track?",
+      "options": [
+        "Changes to table data",
+        "Warehouse billing only",
+        "User passwords",
+        "Dashboard clicks"
+      ],
+      "answer": 0,
+      "explanation": "Streams expose change tracking metadata for downstream processing.",
+      "topic": "Snowflake",
+      "difficulty": "Medium",
+      "tags": [
+        "snowflake",
+        "streams"
+      ]
+    }
+  ]
+}
